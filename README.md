@@ -1,5 +1,5 @@
 # SAE_23
-Sae 23 : Groupe Lilian Muxart, Audric Rouges
+Sae 23 : Groupe Lilian Muxart, Audric Rouges / nom de l'entreprise: CyberZone (abréviation: CZ)
 
 Application Web: notre application web est destinée aux entreprises, elle permet de gérer le stockage de leur entreprise.
 

@@ -1,0 +1,193 @@
+/* Style de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Style de l'en-tête */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.header__logo img {
+  max-height: 60px;
+}
+
+.header__nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.header__nav li {
+  margin-left: 20px;
+}
+
+.header__nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+.header__nav a:hover {
+  color: #ff4d4d;
+}
+
+/* Style du contenu principal */
+.main {
+  margin-top: 80px;
+  padding: 60px 0;
+}
+
+.product {
+  background-color: #fff;
+  padding: 20px;
+}
+
+  form {
+      margin-top: 50px;
+      text-align: center;
+    }
+    
+    input[type="image"] {
+      border: none;
+      margin-top: 30px;
+    }
+    
+    /* CSS pour la section "A propos de nous" */
+    
+    .about {
+      background-color: #F8F8F8;
+      padding: 80px 0;
+    }
+    
+    .about h2 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+    
+    .about .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .about .box {
+      flex-basis: 300px;
+      margin: 30px;
+      text-align: center;
+    }
+    
+    .about .box img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .about .box h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .about .box p {
+      font-size: 16px;
+      color: #777;
+    }
+    
+    /* CSS pour la section "Nos produits" */
+    
+    .products {
+      padding: 80px 0;
+    }
+    
+    .products h2 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+    
+    .products .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .products .box {
+      flex-basis: 300px;
+      margin: 30px;
+      text-align: center;
+    }
+    
+    .products .box img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .products .box h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .products .box p {
+      font-size: 16px;
+      color: #777;
+    }
+    
+    .product-item img {
+      max-width: 50%;
+    }
+    /* CSS pour le footer */
+    
+    footer {
+      background-color: #333;
+      color: #FFF;
+      padding: 50px 0;
+      text-align: center;
+    }
+    
+    footer p {
+      margin: 0;
+    }
+    
+    footer ul {
+      list-style: none;
+      margin: 20px 0;
+      padding: 0;
+    }
+    
+    footer ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    footer ul li a {
+      color: #FFF;
+      text-decoration: none;
+    }
+    
+    footer ul li a:hover {
+      text-decoration: underline;
+    }
+

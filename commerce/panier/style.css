@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+ body{   font-family: 'Open Sans', sans-serif;
+ }
+
+body{
+  margin:0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  width:100%;
+  height: 100%;
+}
+/* Barre de navigation */
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  padding: 15px;
+  background: rgb(232,224,232);
+  background: linear-gradient(125deg, rgba(232,224,232,1) 0%, rgba(231,217,228,1) 100%); 
+  position: sticky;
+  top: 0;
+}
+nav img{
+  height: 80px;
+  width: 150px;
+}
+nav .onglets{
+  display: flex;
+  flex-wrap:wrap;
+}
+nav .onglets p{
+  font-size: 19px;
+  margin-right: 10px;
+  cursor:pointer;
+}
+nav .onglets p i{
+  font-size: 20px;
+  padding: 5px;
+  
+}
+nav .onglets input{
+  margin: 8px 20px;
+  padding: 17px;
+  border-radius: 30px;
+  border:none;
+  background-color: #f2f2f2;
+  outline:none;
+  width:250px;
+}
+/* Fin de la barre de navigation */
+
+/* Header */
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  background-image: url("/home/lilian/Bureau/site ecommerce Marion/page principale/image/femme.jpg");
+  background-size: cover;
+  height: 700px;
+}
+header b{
+  font-size: 50px;
+  max-width: 700px;
+  text-align:center;
+  background-color: white;
+
+}
+header a{
+  font-size: 25px;
+  max-width: 400px;
+  text-align:center;
+  background-color: white;
+}
+header button{
+  padding: 15px 20px;
+  font-size: 20px;
+  border:none;
+  border-radius: 5px;
+  cursor:pointer;
+  margin: 20px;
+  outline:none;
+  background-color:white;
+}
+/* Fin du header */
+
+/* Section principale */
+
+.main{
+  margin-top: 80px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+/* Toutes les cartes */
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+  padding-left:120px;
+  
+}
+.cards .card{
+  cursor:pointer;
+}
+.cards .card img{
+  width: 350px;
+}
+.cards .card .card-header{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  margin-right: 50px;
+}
+.cards .card .card-body p{
+  margin-top: -10px;
+}
+/* Fin de toutes les cartes */
+
+/* Fin de la section principale */
+
+/* Début seconde-main section*/
+.second-main {
+  margin-top: 10px;  
+  background-color: #2D2D2D;
+  color: white;
+  height: 70px;
+}
+.second-main .info-livraison {
+  position:absolute;
+  display: flex; 
+  margin-left:550px;
+  padding-bottom: 10px;
+
+}
+.second-main .info-livraison p{
+  font-size:16px;
+  font-family: 'Jost', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+}
+/* Fin seconde-main section */
+
+
+/* Début seconde section*/
+.second {
+  margin-top: 0px;  
+  background-color: #FFFFFF;
+  color: grey      ;
+  justify-content: space-between;
+  height: 60px;
+
+}
+.second .info-paiement {
+  position:absolute;
+  display: flex;  
+  margin-left: 25%;
+  margin-top:0px;
+  max-height: 60px;
+  align-items:center;
+  padding: 5px;
+}
+.second .info-paiement p{
+  margin-right: 150px;
+}
+.second .info-paiement p i{
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+/* Fin seconde section */
+
+
+.panier {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.panier-liste {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.panier-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.panier-item-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.panier-item-quantite input {
+  width: 50px;
+  text-align: center;
+}
+
+.panier-total {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.panier-actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-items: center;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Début troisieme section */
+
+.troisieme{
+  background: rgb(232,224,232);
+  background: linear-gradient(125deg, rgba(232,224,232,1) 0%, rgba(255,149,237,1) 48%, rgba(242,237,233,1) 100%); ;
+  display: flex;
+  flex-wrap:wrap;
+  font-family: 'Jost', sans-serif;
+  color:#4d4d4d;
+}
+.troisieme .info-general{
+  text-align: left;
+  display: flex;
+  flex-wrap:wrap;
+}
+.troisieme .info-general p{
+  font-size: 15px;
+  letter-spacing: 0,4px;
+  padding:0 90px;
+  cursor:pointer;  
+  text-transform: uppercase;
+  color:black;
+}
+.troisieme .sous-categorie-aide p{
+  font-size: 15px;
+  letter-spacing: 0,4px;
+  padding:0 90px;
+  margin-top: 0px;
+}
+.troisieme .sous-categorie-A-propos p{
+  font-size: 15px;
+  letter-spacing: 0,4px;
+  padding:0 130px;
+  margin-top: 0px;
+}
+.troisieme .sous-categorie-encore-plus p{
+  font-size: 15px;
+  letter-spacing: 0,4px;
+  padding:0 80px;
+  margin-top: 0px;
+}
+.troisieme .social-media{
+  display: flex;
+  margin-left: 110px;
+  margin-top: 59px;
+}
+.troisieme .social-media p{
+  margin-right: 15px;
+  border: 1px solid grey;
+  border-radius: 100%;
+  padding: 5px;
+  text-align:center;
+  width: 20px;
+  cursor:pointer;
+}
+
+
+/* Début footer */
+
+footer {
+  background: rgb(233,233,233);
+  background: linear-gradient(125deg, rgba(233,233,233,1) 0%, rgba(241,240,240,1) 100%); 
+  display: flex;
+  flex-wrap:wrap;
+  font-family: 'Jost', sans-serif;
+  position:absolute;
+  width: 100%;
+  color:#4d4d4d;
+}
+footer .credit {
+  margin-left:30px;
+  font-size: 12px;
+  letter-spacing: 0,4px;
+  text-align: center;
+}
+footer .social-credit{
+  display: flex;
+  align-items: center;
+  margin-left :57%;
+}
+footer .social-credit p{
+  font-size: 10px;
+  letter-spacing: 0,4px;
+  border-left:1px solid;
+  padding: 0 20px;
+  cursor:pointer;
+}
+
+
+
+
+/* Fin footer */
+
+
+@media screen and (max-width: 640px){
+  nav .onglets .link, nav h1{
+    display:none;
+  }
+  .cards .card img{
+    width: 300px;
+  }
+}
